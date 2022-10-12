@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedor{
+  padding: 60px 0;
+  width: 90%;
+  text-align: center;
+  font-size: 200%;
+  max-width: 90%;
+  font-family: 'Poiret One', cursive;
+  margin: auto;
+  overflow: hidden;
+}
+h1{
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 300%;
+}
+h2{
+  font-family: 'Poiret One', cursive;
+  font-size: 150%
+}
+h3{
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 200%;
+}
+header{
+  width: 100%;
+  height: 500px;
+  background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,0.6110819327731092) 0%, rgba(27,40,37,0.742734593837535) 50%, rgba(7,17,14,0.5998774509803921) 100%), url(../img/fondo.jpg);
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+header .textos-header{
+  display: flex;
+  height: 200px;
+  width: 100%;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.img1{
+
+  width: 150px;
+  height: 170px;
+}
+
+.img2{
+  margin-right: 2%;
+  width: 130px;
+  height: 120px;
+}
+.fecha{
+  width: 40%;
+  height: 40%;
+}
